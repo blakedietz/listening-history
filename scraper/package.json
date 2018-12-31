@@ -1,0 +1,15 @@
+{
+  "name": "listening-history-scraper",
+  "version": "1.0.0",
+  "description": "Captures my listening history from last.fm.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules ./src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "blakedietz",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}
